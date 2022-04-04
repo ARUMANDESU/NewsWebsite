@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ARUMANDESU/NewsWebsite/issues"
   },
-  "homepage": "https://github.com/ARUMANDESU/NewsWebsite#readme"
+  "homepage": "https://github.com/ARUMANDESU/NewsWebsite#readme",
+  "dependencies": {
+    "events": "^3.3.0"
+  }
 }
