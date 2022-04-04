@@ -1,4 +1,7 @@
-const  userName ="Arman"
-const sayHi =(userName)=>'Hello,my name is '+userName;
-
-console.log(sayHi(userName));
+// const  userName ="Arman"
+// const sayHi =(userName)=>'Hello,my name is '+userName;
+//
+// module.exports = {
+//     userName,
+//     sayHi
+// }
