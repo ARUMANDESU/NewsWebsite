@@ -1,0 +1,19 @@
+{
+  "name": "newswebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARUMANDESU/NewsWebsite.git"
+  },
+  "author": "Arman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARUMANDESU/NewsWebsite/issues"
+  },
+  "homepage": "https://github.com/ARUMANDESU/NewsWebsite#readme"
+}
