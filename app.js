@@ -1,11 +1,23 @@
+const express = require('express');
+const bodyParser = require('body-parser')
+const app =express();
+const port=3000;
 
-const Logger= require('./log');
-const  logger = new Logger;
+app.use(bodyParser.urlencoded({ extended: false }));
 
-logger.on('some_event', (args)=>{
-    const {id, text}= args;
-    console.log(text, id);
-});
+app.get('/', function (req, res) {
+    res.send('<h1>Hello World!</h1>')
+})
+app.get('/Home', function (req, res) {
+    res.sendFile(__dirname+"/lol.html")
+})
+app.post('/user', function (req, res) {
+    // let username = req.body.username;
+    // let password = req.body.password;
+    // res.send(username+password)
+    res.sendFile(__dirname+"/user.html")
 
-
-logger.log('User Logged!');
+})
+app.listen(3000,()=>{
+    console.log(`listening on port ${port}`)
+})
